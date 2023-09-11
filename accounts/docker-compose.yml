@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  accounts:
+    image: jpelegrino/account-application
+    ports:
+      - 8080:8080
+    networks:
+      - easybank-net
+
+
+  cards:
+    image: jpelegrino/cards-application
+    ports:
+      - 9000:9000
+    networks:
+      - easybank-net
+
+  loans:
+    image: jpelegrino/loans-application
+    ports:
+      - 8090:8090
+    networks:
+      - easybank-net
+
+networks:
+  easybank-net:
+

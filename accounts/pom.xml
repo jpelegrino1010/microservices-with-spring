@@ -68,6 +68,7 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>account-app</finalName>
     </build>
 
 </project>
