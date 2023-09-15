@@ -1,14 +1,13 @@
-package com.eazybytes.accounts.model;
-
-import java.time.LocalDate;
+package com.julioluis.accounts.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
+
+import java.time.LocalDate;
 
 @Entity
 @Getter @Setter @ToString

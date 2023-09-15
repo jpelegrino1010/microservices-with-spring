@@ -1,16 +1,16 @@
 /**
  * 
  */
-package com.eazybytes.accounts.controller;
+package com.julioluis.accounts.controller;
 
+
+import com.julioluis.accounts.model.Accounts;
+import com.julioluis.accounts.model.Customer;
+import com.julioluis.accounts.repository.AccountsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.eazybytes.accounts.model.Accounts;
-import com.eazybytes.accounts.model.Customer;
-import com.eazybytes.accounts.repository.AccountsRepository;
 
 /**
  * @author Eazy Bytes

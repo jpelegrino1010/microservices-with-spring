@@ -1,18 +1,17 @@
 /**
  * 
  */
-package com.eazybytes.cards.controller;
+package com.julioluis.cards.controller;
 
-import java.util.List;
-
+import com.julioluis.cards.model.Cards;
+import com.julioluis.cards.model.Customer;
+import com.julioluis.cards.repository.CardsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.eazybytes.cards.model.Cards;
-import com.eazybytes.cards.model.Customer;
-import com.eazybytes.cards.repository.CardsRepository;
+import java.util.List;
 
 /**
  * @author Eazy Bytes

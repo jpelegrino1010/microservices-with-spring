@@ -1,9 +1,9 @@
-package com.eazybytes.accounts.repository;
+package com.julioluis.accounts.repository;
 
+
+import com.julioluis.accounts.model.Accounts;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
-
-import com.eazybytes.accounts.model.Accounts;
 
 @Repository
 public interface AccountsRepository extends CrudRepository<Accounts, Long> {
