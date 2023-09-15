@@ -3,21 +3,21 @@ version: "3.8"
 services:
 
   accounts:
-    image: eazybytes/accounts:latest
+    image: jpelegrino/accounts
     ports:
       - "8080:8080"
     networks:
       - eazybank-network
     
   loans:
-    image: eazybytes/loans:latest
+    image: jpelegrino/loans
     ports:
       - "8090:8090"
     networks:
       - eazybank-network
     
   cards:
-    image: eazybytes/cards:latest
+    image: jpelegrino/cards
     ports:
       - "9000:9000"
     networks:
