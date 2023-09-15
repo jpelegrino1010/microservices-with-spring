@@ -12,7 +12,7 @@ import java.util.Map;
 @Configuration
 @ConfigurationProperties(prefix = "loans")
 @Getter @Setter @ToString
-public class AccountServerConfig {
+public class LoansServerConfig {
 
     private String msg;
     private String buildVersion;
